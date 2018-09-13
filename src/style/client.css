@@ -1,0 +1,95 @@
+.client_main{
+  position:relative;
+  background-color:#0075bff2;
+  padding: 50px 0;
+  background-image:url('https://www.google.com.np/search?q=background+client+image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjcxpmk0LLdAhWEUlAKHTBHCt4Q_AUICigB&biw=1366&bih=678#imgrc=kcpjMDRdVhiRvM:');
+}
+.client_main h1{
+  font-size: 24px;
+font-weight: 600;
+position: relative;
+z-index: 2;
+color: #fff;
+text-align: left;
+margin-bottom: 50px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+.client_main h1:after{
+  content: "";
+    position: absolute;
+    background: #fff;
+    width: 5px;
+    height: 100%;
+    left: 0;
+    border-radius: 45px;
+    /* transform: rotateZ(2deg); */
+    z-index: 1;
+}
+.client_main .img_section_client{
+  height: 120px;
+  width: 120px;
+
+  margin:auto;
+}
+.client_main .image_border_client{
+  border-right:1px solid #fff;
+  overflow:auto;
+  min-height:150px;
+}
+.client_main img{
+border-radius: 50%;
+}
+.client_content{
+  padding: 0px 15px;
+}
+.client_main .client_content h4{
+  color:#fff;
+  padding-left: 0;
+  line-height: 24px;
+  margin-top: 0;
+  font-weight: 300;
+}
+.client_main .owl-nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.client_main .fa.fa-angle-left{
+    width: 46px;
+    height: 46px;
+    line-height: 40px;
+    font-size: 22px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgba(255,255,255,0.50);
+    border: 2px solid rgba(255,255,255,0.60);
+    display: inline-block;
+    transition:0.3s all ease;
+}
+.client_main .fa.fa-angle-left:hover,.client_main .fa.fa-angle-right:hover{
+  color:#000;
+  background: #fff;
+  cursor:pointer;
+}
+.client_main .fa.fa-angle-right{
+  width: 46px;
+  height: 46px;
+  line-height: 40px;
+  font-size: 22px;
+  margin-left: 10px;
+  text-align: center;
+  color: rgba(255,255,255,0.50);
+  border: 2px solid rgba(255,255,255,0.60);
+  display: inline-block;
+  transition:0.3s all ease;
+}
+.client_main .client_content h5{
+  color:#ddd;
+  padding-left: 0;
+}
+.client_main .client_content h5:after{
+  background: red;
+  position: static;
+  height:10px;
+}
